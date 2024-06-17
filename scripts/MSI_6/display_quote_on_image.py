@@ -7,8 +7,8 @@ import requests
 from PIL import Image, ImageDraw
 from airflow.models import Variable
 
-from MSI_6.utils.s3_operations import upload_file_to_s3
-from MSI_6.utils.custom_exceptions import ConnectionException
+from scripts.utils.s3_operations import upload_file_to_s3
+from scripts.utils.custom_exceptions import ConnectionException
 
 logger = logging.getLogger(__name__)
 

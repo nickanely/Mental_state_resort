@@ -4,7 +4,7 @@ import logging
 import requests
 from airflow.models import Variable
 
-from MSI_6.utils.s3_operations import download_file_from_s3
+from scripts.utils.s3_operations import download_file_from_s3
 
 logger = logging.getLogger(__name__)
 

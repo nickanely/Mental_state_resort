@@ -3,7 +3,7 @@ import logging
 import requests
 from airflow.providers.http.hooks.http import HttpHook
 
-from MSI_6.utils.custom_exceptions import QuoteLoadException
+from scripts.utils.custom_exceptions import QuoteLoadException
 
 logger = logging.getLogger(__name__)
 
